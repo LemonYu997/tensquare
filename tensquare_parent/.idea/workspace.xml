@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe82bd7a-1a97-4c81-bf45-3faa57bdc3d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven_jar" />
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1pC5yL5HwU2fBX3BVdUXAdA7lWt" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/GitRepo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+    <configuration name="MongoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongo_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongo_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongo_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongo_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="JUnit.MongoTest.test5" />
+        <item itemvalue="JUnit.MongoTest.test4" />
+        <item itemvalue="JUnit.MongoTest.test1" />
+        <item itemvalue="JUnit.MongoTest.test3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe82bd7a-1a97-4c81-bf45-3faa57bdc3d2" name="Default Changelist" comment="" />
+      <created>1614674484159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614674484159</updated>
+      <workItem from="1614674487432" duration="13308000" />
+      <workItem from="1614741448833" duration="15952000" />
+      <workItem from="1614827182172" duration="3692000" />
+      <workItem from="1616233957948" duration="4399000" />
+      <workItem from="1616328225024" duration="11359000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="853" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1616336207635">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="853" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616336207635" />
+    <state width="1675" height="276" key="GridCell.Tab.0.bottom" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.0.center" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.0.left" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.0.right" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.1.bottom" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.1.center" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.1.left" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state width="1675" height="276" key="GridCell.Tab.1.right" timestamp="1616339735568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1675" height="276" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
+    <state x="524" y="199" key="SettingsEditor" timestamp="1616243520504">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="524" y="199" key="SettingsEditor/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616243520504" />
+    <state x="1297" y="449" key="com.intellij.ide.util.TipDialog" timestamp="1616328243124">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1297" y="449" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616328243124" />
+    <state x="614" y="271" key="new project wizard" timestamp="1616328953652">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="614" y="271" key="new project wizard/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616328953652" />
+    <state x="671" y="317" width="840" height="1034" key="search.everywhere.popup" timestamp="1616333587006">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="671" y="317" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616333587006" />
+  </component>
+</project>
