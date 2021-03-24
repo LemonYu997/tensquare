@@ -1,0 +1,16 @@
+server:
+  # 设置端口号
+  port: 6868
+spring:
+  # 设置应用名
+  application:
+    name: tensquare-eureka
+eureka:
+  client:
+    # 是否将自己注册到Eureka中，这里就是Eureka自己，不需要注册
+    register-with-eureka: false
+    # 是否从Eureka中获取信息，不需要
+    fetch-registry: false
+    # 设置服务地址
+    service-url:
+      defaultZone: http://127.0.0.1:/${server.port}/eureka/

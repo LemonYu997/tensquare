@@ -21,6 +21,24 @@ public class ArticleController {
     @Autowired
     private ArticleService articleService;
 
+    //根据文章id和用户id，建立订阅关系，保存的是文章作者id和用户id的关系
+    //POST article/subscribe
+    //测试连接：http://127.0.0.1:9004/article/subscribe
+    @RequestMapping(value = "subscribe", method = RequestMethod.POST)
+    public Result subscribe(@RequestBody Map map) {
+        //返回状态，如果返回true，就是订阅该文章作者，如果返回false就是取消订阅文章作者
+        Boolean flag = articleService.subscribe(map.get("articleId").toString(),
+                map.get("userId").toString());
+
+        //判断订阅还是取消订阅
+        if (flag == true) {
+            return new Result(true, StatusCode.OK, "订阅成功");
+        } else {
+            return new Result(true, StatusCode.OK, "取消订阅成功");
+        }
+    }
+
+
     //异常处理测试
     @RequestMapping(value = "/exception", method = RequestMethod.GET)
     public Result exception() throws Exception {
@@ -89,5 +107,14 @@ public class ArticleController {
         List<Article> list = articleService.findAll();
 
         return new Result(true, StatusCode.OK, "查询成功", list);
+    }
+
+    //PUT /article/thumbup/{articleId} 根据文章id点赞
+    //测试连接：http://127.0.0.1:9004/article/thumbup/1
+    @RequestMapping(value = "thumbup/{articleId}",method = RequestMethod.PUT)
+    public Result thumup(@PathVariable String articleId) {
+        articleService.thumup(articleId);
+
+        return new Result(true, StatusCode.OK, "点赞成功");
     }
 }

@@ -18,6 +18,13 @@ spring:
       host: 192.168.14.3
       # port: 27017 默认端口号，可以省略
       database: commentdb # 数据库名字
+  # 配置redis
+  redis:
+    host: 192.168.14.3
+    # port: 6379 默认端口号，可以省略
+  # 配置rabbitmq
+  rabbitmq:
+    host: 192.168.14.3
 
 # mybatis-plus配置
 mybatis-plus:
@@ -35,3 +42,12 @@ mybatis-plus:
       multipleResultSetsEnabled: true # 开启延时加载，否则按需加载属性
       # 打印sql语句，调试用
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 配置Eureka注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    # 设置发现IP
+    prefer-ip-address: true

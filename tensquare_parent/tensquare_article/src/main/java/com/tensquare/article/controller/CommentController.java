@@ -5,6 +5,7 @@ import com.tensquare.article.service.CommentService;
 import entity.Result;
 import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,6 +15,10 @@ import java.util.List;
 public class CommentController {
     @Autowired
     private CommentService commentService;
+
+    //注入redisTemplate，用来解决重复点赞问题
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     //GET /comment 查询所有评论
     //测试连接：http://127.0.0.1:9004/comment
@@ -57,5 +62,43 @@ public class CommentController {
     public Result DeleteById(@PathVariable String commentId) {
         commentService.deleteById(commentId);
         return new Result(true, StatusCode.OK, "删除成功");
+    }
+
+    //GET /comment/article/{articleId} 根据文章id查询文章评论
+    //测试链接：http://127.0.0.1:9004/comment/article/333
+    @RequestMapping(value = "article/{articleId}", method = RequestMethod.GET)
+    public Result findByArticleId(@PathVariable String articleId) {
+        List<Comment> list = commentService.findByArticleId(articleId);
+        return new Result(true, StatusCode.OK, "查询成功", list);
+    }
+
+    //PUT /comment/thumbup/{commentId} 根据评论id点赞评论
+    //测试连接：http://127.0.0.1:9004/comment/thumbup/4
+    @RequestMapping(value = "thumbup/{commentId}", method = RequestMethod.PUT)
+    public Result thumbup(@PathVariable String commentId) {
+        //把用户点赞信息保存到redis中
+        //每次点赞之前，先查询用户点赞信息
+        //如果没有点赞信息，用户可以点赞；如果有点赞信息，用户不能重复点赞
+
+        //模拟用户id
+        String userId = "123";
+
+        //查询用户点赞信息，根据用户id和评论id
+        Object flag = redisTemplate.opsForValue().get("thumbup_" + userId + "_" + commentId);
+        //判断查询到的结果是否为空
+        //如果为空，表示用户吗没有点过赞，可以点赞
+        if (flag == null) {
+            //执行点赞操作
+            commentService.thumbup(commentId);
+
+            //点赞成功，保存点赞信息
+            redisTemplate.opsForValue().set("thumbup_" + userId + "_" + commentId, 1);
+
+            //返回结果
+            return new Result(true, StatusCode.OK, "点赞成功");
+        }
+
+        //如果不为空，表示用户点过赞，不可以重复点赞
+        return new Result(false, StatusCode.REPERROR, "不能重复点赞");
     }
 }

@@ -51,94 +51,99 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/GitRepo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_user/src/main/resources/static" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ArticleApplication">
-    <configuration name="MongoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo_demo" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\tensquare\tensquare_parent\tensquare_user\src\main\resources\static" />
+      <recent name="F:\Java\tensquare\tensquare_parent\tensquare_user\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tensquare.article.pojo" />
+      <recent name="com.tensquare.notice.config" />
+      <recent name="com.tensquare.user.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\tensquare\tensquare_parent\tensquare_user\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyClient">
+    <configuration name="IOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.io.IOServer" />
+      <module name="netty_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.demo.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo_demo" />
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.io.MyClient" />
+      <module name="netty_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.demo.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo_demo" />
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.nio.NIOServer" />
+      <module name="netty_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.demo.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo_demo" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.netty.NettyClient" />
+      <module name="netty_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.demo.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MongoTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_article" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.netty.NettyServer" />
+      <module name="netty_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.article.*" />
+          <option name="PATTERN" value="com.demo.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.article.ArticleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="JUnit.MongoTest.test5" />
-        <item itemvalue="JUnit.MongoTest.test4" />
-        <item itemvalue="JUnit.MongoTest.test1" />
-        <item itemvalue="JUnit.MongoTest.test3" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NIOServer" />
+        <item itemvalue="Application.IOServer" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +162,10 @@
       <workItem from="1614827182172" duration="3692000" />
       <workItem from="1616233957948" duration="4399000" />
       <workItem from="1616328225024" duration="11359000" />
+      <workItem from="1616378272366" duration="24717000" />
+      <workItem from="1616458901930" duration="33379000" />
+      <workItem from="1616546652224" duration="7738000" />
+      <workItem from="1616574748829" duration="10558000" />
     </task>
     <servers />
   </component>
@@ -164,57 +173,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="853" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1616336207635">
+    <state x="1122" y="459" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616418443554">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="853" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616336207635" />
-    <state width="1675" height="276" key="GridCell.Tab.0.bottom" timestamp="1616339735568">
+    <state x="1122" y="459" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616418443554" />
+    <state x="853" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1616587954223">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.0.center" timestamp="1616339735568">
+    <state x="853" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616587954223" />
+    <state x="1175" y="623" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616467964291">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.0.left" timestamp="1616339735568">
+    <state x="1175" y="623" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616467964291" />
+    <state x="1182" y="393" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616412265187">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.0.right" timestamp="1616339735568">
+    <state x="1182" y="393" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616412265187" />
+    <state width="1895" height="286" key="GridCell.Tab.0.bottom" timestamp="1616593307979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.1.bottom" timestamp="1616339735568">
+    <state width="1895" height="286" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307979" />
+    <state width="1895" height="286" key="GridCell.Tab.0.center" timestamp="1616593307979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.1.center" timestamp="1616339735568">
+    <state width="1895" height="286" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307979" />
+    <state width="1895" height="286" key="GridCell.Tab.0.left" timestamp="1616593307979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.1.left" timestamp="1616339735568">
+    <state width="1895" height="286" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307979" />
+    <state width="1895" height="286" key="GridCell.Tab.0.right" timestamp="1616593307979">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state width="1675" height="276" key="GridCell.Tab.1.right" timestamp="1616339735568">
+    <state width="1895" height="286" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307979" />
+    <state width="1895" height="286" key="GridCell.Tab.1.bottom" timestamp="1616593307968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1675" height="276" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616339735568" />
-    <state x="524" y="199" key="SettingsEditor" timestamp="1616243520504">
+    <state width="1895" height="286" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307968" />
+    <state width="1895" height="286" key="GridCell.Tab.1.center" timestamp="1616593307968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="524" y="199" key="SettingsEditor/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616243520504" />
-    <state x="1297" y="449" key="com.intellij.ide.util.TipDialog" timestamp="1616328243124">
+    <state width="1895" height="286" key="GridCell.Tab.1.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307968" />
+    <state width="1895" height="286" key="GridCell.Tab.1.left" timestamp="1616593307968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1297" y="449" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616328243124" />
-    <state x="614" y="271" key="new project wizard" timestamp="1616328953652">
+    <state width="1895" height="286" key="GridCell.Tab.1.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307968" />
+    <state width="1895" height="286" key="GridCell.Tab.1.right" timestamp="1616593307968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="614" y="271" key="new project wizard/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616328953652" />
-    <state x="671" y="317" width="840" height="1034" key="search.everywhere.popup" timestamp="1616333587006">
+    <state width="1895" height="286" key="GridCell.Tab.1.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616593307968" />
+    <state x="926" y="221" key="SettingsEditor" timestamp="1616580080224">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="671" y="317" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616333587006" />
+    <state x="926" y="221" key="SettingsEditor/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616580080224" />
+    <state x="1297" y="449" key="com.intellij.ide.util.TipDialog" timestamp="1616574861715">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1297" y="449" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616574861715" />
+    <state x="614" y="271" key="new project wizard" timestamp="1616579201665">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="614" y="271" key="new project wizard/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616579201665" />
+    <state x="1191" y="336" key="run.anything.popup" timestamp="1616381608909">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1191" y="336" key="run.anything.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616381608909" />
+    <state x="671" y="317" width="840" height="1034" key="search.everywhere.popup" timestamp="1616579622569">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="671" y="317" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1616579622569" />
   </component>
 </project>
