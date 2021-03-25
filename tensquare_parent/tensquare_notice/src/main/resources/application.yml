@@ -16,6 +16,9 @@ spring:
   redis:
     host: 192.168.14.3
     # port: 6379 默认端口号，可以省略
+  # 配置rabbitmq
+  rabbitmq:
+    host: 192.168.14.3
 
 # mybatis-plus配置
 mybatis-plus:

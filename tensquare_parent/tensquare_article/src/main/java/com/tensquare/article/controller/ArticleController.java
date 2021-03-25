@@ -113,7 +113,8 @@ public class ArticleController {
     //测试连接：http://127.0.0.1:9004/article/thumbup/1
     @RequestMapping(value = "thumbup/{articleId}",method = RequestMethod.PUT)
     public Result thumup(@PathVariable String articleId) {
-        articleService.thumup(articleId);
+        String userId = "1";    //模拟点赞用户，实际通过jwt鉴权的方式
+        articleService.thumup(articleId, userId);
 
         return new Result(true, StatusCode.OK, "点赞成功");
     }

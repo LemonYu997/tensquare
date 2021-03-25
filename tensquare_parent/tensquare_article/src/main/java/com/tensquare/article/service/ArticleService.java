@@ -234,9 +234,8 @@ public class ArticleService {
     }
 
     //根据文章id点赞功能
-    public void thumup(String articleId) {
-        //TODO: 通过jwt鉴权获取用户id，这里模拟一下
-        String userId = "3";
+    public void thumup(String articleId, String userId) {
+        //TODO: 通过jwt鉴权获取用户id
 
         Article article = articleDao.selectById(articleId);
         article.setThumbup(article.getThumbup() + 1);
@@ -261,5 +260,17 @@ public class ArticleService {
 
         //保存消息
         noticeClient.save(notice);
+
+
+        //使用RabbitMQ存储新消息
+        //1、创建RabbitMQ管理器
+        RabbitAdmin rabbitAdmin = new RabbitAdmin(rabbitTemplate.getConnectionFactory());
+
+        //2、创建队列，每个作者都有自己的队列，通过作者id进行区分  参数1为队列名称  参数2为持久化存储
+        Queue queue = new Queue("article_thumbup_" + article.getUserid(), true);
+        rabbitAdmin.declareQueue(queue);
+
+        //3、发消息到队列中
+        rabbitTemplate.convertAndSend("article_thumbup_" + article.getUserid(), articleId);
     }
 }
